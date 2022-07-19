@@ -1,21 +1,21 @@
 body {
-  font-family: "Times New Roman", Arial, Helvetica;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq4_y0fFtkGf14Be_BGGOiRTGn9XIKygbcvg&usqp=CAU);
+  font-family: "Calibri", Arial, Helvetica;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-background-texture-texture-advertising-background-backgroundbackgroundtemplatetexturetexture-image_68782.jpg);
 }
 h1 {
-  color: rgb(255, 0, 0);
+  color: rgb(204, 199, 199);
   text-align: center;
 }
 h2 {
-  color: #1a237e;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 h3 {
-  color: #1a237e;
+  color: whitesmoke;
   text-decoration: underline;
 }
 p {
-  color: black;
+  color: white;
   font-family: Cambria, Cochin, Georgia, Times;
   font-size: 16px;
   font-style: oblique;
@@ -30,32 +30,47 @@ ul li {
   list-style: square;
 }
 ol li {
-  list-style: upper-roman;
+  list-style: circle;
 }
 
 .bold {
   font-style: bold;
   font-style: normal;
-  color: blue;
+  color: whitesmoke;
 }
 
 .bloque1 {
-  background-color: yellow;
-  border: dashed 4px black;
+  background-color: rgba(138, 138, 126, 0.164);
+  border: dashed 1px black;
   padding: 10px;
-  margin-left: 75px;
+  margin-left: 70px;
   margin-bottom: 15px;
-  width: 750px;
-  height: 320px;
+  width: 650px;
+  height: 200px;
+}
+
+.bloque1 .img .contain {
+  border: dashed 1px rgba(138, 138, 126, 0.164);
+  padding: 10%;
+  margin: 10%;
+  height: 50%;
+  width: 50%;
 }
 
 .bloque2 {
-  background-color: violet;
-  border: solid 2px black;
-  padding: 5px;
+  background-color: rgba(8, 8, 8, 0.349);
+  border: solid 0.5px black;
+  padding: 10px;
   margin: auto;
   margin-left: 10px;
   margin-bottom: 15px;
-  width: 700px;
-  height: 430px;
+  width: 800px;
+  height: 300px;
+}
+.bloque2 .img .contain {
+  border: dashed 1px rgba(138, 138, 126, 0.164);
+  padding: 10%;
+  margin: 10%;
+  height: 50%;
+  width: 50%;
 }
